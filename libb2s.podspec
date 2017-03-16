@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libb2s'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A portable C library providing the BLAKE2s hashing function'
 
   s.description      = <<-DESC
@@ -24,7 +24,10 @@ as well.
   s.author           = { 'Mohak Shah' => 'mohak@mohakshah.in' }
   s.source           = { :git => 'https://github.com/mohakshah/libb2s.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = ""
+  s.osx.deployment_target = ""
+  s.watchos.deployment_target = ""
+  s.tvos.deployment_target = ""
 
   s.source_files = 'src/*.{c,h}'
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_TARGET_SRCROOT)/libb2s/src/"' }
