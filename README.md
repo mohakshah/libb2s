@@ -29,7 +29,7 @@ libb2s is also available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'libb2s', :git => 'https://github.com/mohakshah/libb2s.git'
+pod 'libb2s'
 ```
 
 ## License
