@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libb2s'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A portable C library providing the BLAKE2s hashing function'
 
   s.description      = <<-DESC

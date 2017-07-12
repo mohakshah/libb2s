@@ -1,5 +1,5 @@
 # libb2s
-
+[![CI Status](http://img.shields.io/travis/mohakshah/libb2s.svg?style=flat)](https://travis-ci.org/mohakshah/libb2s)
 [![Version](https://img.shields.io/cocoapods/v/libb2s.svg?style=flat)](http://cocoapods.org/pods/libb2s)
 [![License](https://img.shields.io/cocoapods/l/libb2s.svg?style=flat)](http://cocoapods.org/pods/libb2s)
 [![Platform](https://img.shields.io/cocoapods/p/libb2s.svg?style=flat)](http://cocoapods.org/pods/libb2s)
